@@ -1,3 +1,4 @@
+"use strict";
 // More Utilities
 // Omit
 // Excluded
@@ -83,8 +84,8 @@
 // const obj = new CustomMaths()
 // console.log(obj.sum(5, 10))
 function one() {
-    return new Promise(function (resolve) {
-        setTimeout(function () {
+    return new Promise(resolve => {
+        setTimeout(() => {
             resolve('Hello World');
         }, 2000);
     });
